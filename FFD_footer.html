@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Design</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Poppins", serif;
+            outline: none;
+        }
+
+        footer {
+            background-color: #F1AB47;
+            padding: 60px 0px;
+            color: white;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .footer-logo img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .contact-info li {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .contact-info li a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+
+        .contact-info li a i {
+            padding: 12px;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+            height: 48px;
+            width: 48px;
+            margin-right: 15px;
+            fill: #FFFFFF;
+        }
+
+        .contact-info li a .fa-phone-alt:before,
+        .contact-info li a .fa-envelope:before {
+            font-size: 22px;
+        }
+
+        .contact-info li a .fa-map-marker-alt:before {
+            font-size: 26px;
+        }
+
+        .contact-info li a i:hover {
+            border-color: #02496C;
+            fill: #02496C;
+            color: #02496C;
+        }
+
+        .social-icons a {
+            background: #02496C;
+            padding: 4px 8px;
+            border-radius: 10%;
+        }
+
+        .social-icons a .fa-facebook:before,
+        .social-icons a .fa-instagram:before {
+            color: #FFFFFF;
+        }
+
+        .footer-column {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .footer-column h3 {
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            padding: 8px 0;
+        }
+
+        .footer-column ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .footer-column ul li a:hover,
+        .footer-column ul li a:focus {
+            color: #02496C;
+        }
+
+        .opening-hours-title {
+            padding: 15px 0;
+            margin-bottom: 0 !important;
+        }
+
+        .opening-hours {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .opening-hours li {
+            padding: 0 !important;
+        }
+
+        .opening-hours li a i {
+            margin-right: 10px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            footer {
+                padding: 20px 0;
+            }
+
+            .footer-container {
+                padding: 10px;
+            }
+
+            .footer-logo {
+                width: 100%;
+                align-items: flex-start;
+                padding: 0 0 20px;
+            }
+
+            .footer-logo img {
+                width: auto;
+            }
+
+            .footer-column {
+                width: 33%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .contact-info li {
+                flex-direction: column;
+            }
+
+            .footer-column {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="https://floatingfloorsdirect.com.au/wp-content/uploads/2024/09/footer-logo-14.png.webp"
+                    alt="Floating Floors Direct">
+                <ul class="contact-info">
+                    <li>
+                        <a href="tel:0294762915"><i class="fas fa-phone-alt"></i>(02) 9476 2915</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@floatingfloorsdirect.com.au"><i
+                                class="fas fa-envelope"></i>info@floatingfloorsdirect.com.au</a>
+                    </li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/ahmpsXZapuRJa81R6"><i class="fas fa-map-marker-alt"></i>1/22
+                            Leighton Place Hornsby, NSW2077</a>
+                    </li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Floating-Floors-Direct/100034777646325/"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/floatingfloorsdirecthornsby/"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/timber/">Timber</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/laminate/">Laminate</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/bamboo/">Bamboo</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/cork/">Cork</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/vinyl_plank/">Vinyl</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/carpet/">Carpet</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/product-category/hybrid-flooring/">Hybrid</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li><a href="https://floatingfloorsdirect.com.au/about-us/">History/Our Team</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/showroom/">Showroom</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/faqs/">FAQs</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/testimonials/">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="https://floatingfloorsdirect.com.au/installation/">Installation</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/sound-reduction/">Sound Reduction</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/warranty/">Warranty</a></li>
+                    <li><a href="https://floatingfloorsdirect.com.au/diy/">DIY</a></li>
+                </ul>
+                <h3 class="opening-hours-title">OPENING HOURS</h3>
+                <ul class="opening-hours">
+                    <li><a href="#"><i aria-hidden="true" class="fas fa-clock"></i>Mon - Fri: 9:00 to 4:00</a></li>
+                    <li><a href="#"><i aria-hidden="true" class="fas fa-clock"></i>Sat: 10:00 to 2:00</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
